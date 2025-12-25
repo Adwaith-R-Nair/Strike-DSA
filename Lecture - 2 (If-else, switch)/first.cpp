@@ -38,7 +38,7 @@ int main()
 
     // Comparison operator
     // > , < , >=, <= , !=
-    
+
     cout << (a != b);
 
     //  left shift
@@ -47,4 +47,24 @@ int main()
     // Right shift
     a = a >> 3;
     cout << a;
+
+    // Logical operator
+    // && (and) : Both side should be true--> Then only true, else false
+    // || (or): If both side is false--> Then only false, else true
+    //  ! (Not operator): (Reverse)
+
+    // cout<<(!0);
+
+    //    int a = 10;
+
+    //    pre increment , post incremenet
+    //  pre decrement, post decrement
+
+    //    int b = --a;
+
+    //    cout<<b<<endl;
+    //     cout<<a;
+
+    // a++
+    //    ++a;
 }
