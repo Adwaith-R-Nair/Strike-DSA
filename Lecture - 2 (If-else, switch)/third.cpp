@@ -20,14 +20,42 @@ int main() {
     int num2 = 14;
 
     if(num1>num2){
-        cout<<"num1 is greater";
+        cout<<"num1 is greater\n";
     }
     else if(num2>num1){
-        cout<<"num2 is greater";
+        cout<<"num2 is greater\n";
     }
     else{
-        cout<<"both are equal";
+        cout<<"both are equal\n";
     }
 
- 
+ //     loops
+
+
+    // cout<<"Hello Coder Army\n";
+    // cout<<"Hello Coder Army\n";
+    // cout<<"Hello Coder Army\n";
+    // cout<<"Hello Coder Army\n";
+
+    // cout<<"Hello Coder Army\n";
+    // cout<<"Hello Coder Army\n";
+    // cout<<"Hello Coder Army\n";
+    // cout<<"Hello Coder Army\n";
+
+
+
+    // for(int i=1;i<=5;i++){
+    //    cout<<"Hello Coder Army\n";
+    // }
+
+
+    for(int i=1;i<=10;i++){
+        cout<<i<<" ";
+    }
+
+
+
+
+    // i =6
+    return 0;
 }
