@@ -2,9 +2,11 @@
 using namespace std;
 
 int main(){
-    int a;
-    cout << "Enter your number : ";
+    int a, b;
+    cout << "Enter your 1st number : ";
     cin >> a;
+    cout << "Enter your 2nd number : ";
+    cin >> b;
 
-    cout << "Your number is : " << a;
+    cout << "Your numbers are : " << a << " and " << b;
 }
