@@ -22,4 +22,17 @@ int main()
     cout << a * b << endl;
     cout << a / b << endl;
     cout << a % b << endl;
+
+    // Assignment operator
+    a += b;
+    //    a = a+b;
+    a -= b;
+    //    a = a-b;
+
+    a *= b;
+    //    a = a*b;
+
+    a %= b;
+
+    cout << a;
 }
