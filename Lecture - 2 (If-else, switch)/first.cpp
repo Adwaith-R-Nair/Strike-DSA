@@ -35,4 +35,16 @@ int main()
     a %= b;
 
     cout << a;
+
+    // Comparison operator
+    // > , < , >=, <= , !=
+    
+    cout << (a != b);
+
+    //  left shift
+    a = a << 3;
+
+    // Right shift
+    a = a >> 3;
+    cout << a;
 }
