@@ -1,7 +1,8 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     // int a, b;
     // cout << "Enter your 1st number : ";
     // cin >> a;
@@ -11,5 +12,14 @@ int main(){
     // cout << "Your numbers are : " << a << " and " << b;
 
     char c = 'a' + 2;
-    cout << "\nThe character is : " << c;
+    cout << "\nThe character is : " << c << endl;
+
+    int a = 20;
+    int b = 10;
+
+    cout << a + b << endl;
+    cout << a - b << endl;
+    cout << a * b << endl;
+    cout << a / b << endl;
+    cout << a % b << endl;
 }
