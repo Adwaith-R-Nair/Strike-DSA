@@ -20,4 +20,11 @@ int main()
         cout << "Hello Coder Army";
         cout << endl;
     }
+
+    // 10 to 1 number
+
+    for (int i = 10; i > 0; i--)
+    {
+        cout << i << " ";
+    }
 }
