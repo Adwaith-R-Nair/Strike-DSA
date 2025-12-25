@@ -11,42 +11,42 @@ int main()
 
     // cout << "Your numbers are : " << a << " and " << b;
 
-    char c = 'a' + 2;
-    cout << "\nThe character is : " << c << endl;
+    // char c = 'a' + 2;
+    // cout << "\nThe character is : " << c << endl;
 
-    int a = 20;
-    int b = 10;
+    // int a = 20;
+    // int b = 10;
 
-    cout << a + b << endl;
-    cout << a - b << endl;
-    cout << a * b << endl;
-    cout << a / b << endl;
-    cout << a % b << endl;
+    // cout << a + b << endl;
+    // cout << a - b << endl;
+    // cout << a * b << endl;
+    // cout << a / b << endl;
+    // cout << a % b << endl;
 
     // Assignment operator
-    a += b;
+    // a += b;
     //    a = a+b;
-    a -= b;
+    // a -= b;
     //    a = a-b;
 
-    a *= b;
+    // a *= b;
     //    a = a*b;
 
-    a %= b;
+    // a %= b;
 
-    cout << a;
+    // cout << a;
 
     // Comparison operator
     // > , < , >=, <= , !=
 
-    cout << (a != b);
+    // cout << (a != b);
 
     //  left shift
-    a = a << 3;
+    // a = a << 3;
 
     // Right shift
-    a = a >> 3;
-    cout << a;
+    // a = a >> 3;
+    // cout << a;
 
     // Logical operator
     // && (and) : Both side should be true--> Then only true, else false
@@ -67,4 +67,13 @@ int main()
 
     // a++
     //    ++a;
+
+    // Bitwise operator
+    // &  |  ^
+    int a = 10;
+    int b = 5;
+
+    cout << (0 & 0);
+
+    return 0;
 }
