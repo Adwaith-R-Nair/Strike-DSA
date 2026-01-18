@@ -2,15 +2,15 @@
 using namespace std;
 
 int main(){
-    int n = 256;
+    int n = 100000000;
     int ans = 0;
     int mul = 1;
 
     while (n){
         int rem = n % 2;
         ans += rem * mul;
-        mul *= 10;
-        n /= 2;
+        mul *= 2;
+        n /= 10;
     }
     cout << ans;
 }

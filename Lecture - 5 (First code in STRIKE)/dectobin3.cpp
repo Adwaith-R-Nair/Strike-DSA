@@ -7,10 +7,10 @@ int main(){
     int mul = 1;
 
     while (n){
-        int rem = n % 2;
+        int rem = n&1;
         ans += rem * mul;
         mul *= 10;
-        n /= 2;
+        n = n >> 1;
     }
     cout << ans;
 }
