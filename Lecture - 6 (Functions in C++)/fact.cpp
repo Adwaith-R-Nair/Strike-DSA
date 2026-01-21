@@ -1,16 +1,17 @@
 #include <iostream>
 using namespace std;
 
-void factorial(int n){
+int factorial(int n){
     int fact = 1;
     for (int i = 1; i <= n; i++){
         fact *= i;
     }
-    cout << fact << endl;
+    return fact;
 }
 
 int main(){
-    factorial(4);
-    factorial(5);
-    factorial(6);
+    int f1 = factorial(4);
+    int f2 = factorial(5);
+    int f3 = factorial(6);
+    cout << f1 << endl << f2 << endl << f3;
 }

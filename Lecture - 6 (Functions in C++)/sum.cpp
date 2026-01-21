@@ -1,13 +1,14 @@
 #include <iostream>
 using namespace std;
 
-void sum(int n1, int n2){
+int sum(int n1, int n2){
     int sum = n1 + n2;
-    cout << sum << endl;
+    return sum;
 }
 
 int main(){
-    sum(4,5);
-    sum(10,13);
-    sum(15,55);
+    int num1 = sum(4,5);
+    int num2 = sum(10,13);
+    int num3 = sum(15,55);
+    cout << num1 << endl << num2 << endl << num3;
 }
